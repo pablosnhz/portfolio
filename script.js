@@ -1,7 +1,7 @@
 //HEADER// 
 
 // function([string1, string2],target id,[color1,color2])    
-consoleText(['Pablo Sanhueza.', 'Leo Messi', 'Balon de Oro.'], 'text',['tomato','white','lightblue']);
+consoleText(['Pablo Sanhueza.', 'Road to fullstack', 'Mi sitio web'], 'text',['tomato','white','lightblue']);
 
 function consoleText(words, id, colors) {
   if (colors === undefined) colors = ['#fff'];
